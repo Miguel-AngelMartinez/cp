@@ -20,6 +20,7 @@
         <hr>
         @yield('tabla')
         @yield('direccion')
+        @yield('dato')
         <hr>
 </body>
 </html>

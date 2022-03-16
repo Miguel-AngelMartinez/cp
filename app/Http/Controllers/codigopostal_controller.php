@@ -40,8 +40,16 @@ class codigopostal_controller extends Controller
         return view('molde',['CP'=>$this->consulta(),'name'=>$name,'codigo'=>$codigo]);
 
     }
+    public function index3()
+    {
+        $asentamiento=request("asentamiento");
+
+        return view('direccion',['asentamiento'=>$asentamiento,'CP'=>$this->consulta()]);
+
+    }
+
 
     public function direccion(){
-        
+
     }
 }

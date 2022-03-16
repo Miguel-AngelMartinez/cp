@@ -17,3 +17,4 @@ use App\Http\Controllers\codigopostal_controller;
 
 Route::get('/',[codigopostal_controller::class, 'index'])->name('index2');
 Route::post('/index',[codigopostal_controller::class, 'index2'])->name('index');
+Route::post('/index3',[codigopostal_controller::class, 'index3'])->name('index3');
